@@ -11,11 +11,16 @@ Functions from <ctype.h>
 - [ft_tolower](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_tolower.c)
 - [ft_toupper](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_toupper.c)
 
-Functions from <stdio.h>
+Functions from <string.h>
 
-Functions from <strings.h>
-
-- [
+- [ft_strchr](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strchr.c)
+- [ft_strdup](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strdup.c)
+- [ft_strlcat](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strlcat.c)
+- [ft_strlcpy](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strlcpy.c)
+- [ft_strlen](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strlen.c)
+- [ft_strncmp](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strncmp.c)
+- [ft_strnstr](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strnstr.c)
+- [ft_strrchr](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strrchr.c)
 
 Functions from <strings.h>
 
@@ -35,6 +40,15 @@ Non-standart functions
 
 - [ft_itoa](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_itoa.c)
 - [ft_putchar_fd](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_putchar_fd.c)
+- [ft_putendl_fd](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_putendl_fd.c)
+- [ft_putnbr_fd](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_putnbr_fd.c)
+- [ft_putstr_fd](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_putstr_fd.c)
+- [ft_split](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_split.c)
+- [ft_striteri](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_striteri.c)
+- [ft_strjoin](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strjoin.c)
+- [ft_strmapi](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strmapi.c)
+- [ft_strtrim](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_strtrim.c)
+- [ft_substr](https://github.com/Anastasiia-Ni/Libft-42-cursus/blob/main/ft_substr.c)
 
 Linked list functions
 
