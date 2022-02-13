@@ -27,25 +27,28 @@ LIST =	ft_atoi.c			ft_bzero.c			ft_calloc.c\
 		
 LIST_BONUS =	ft_lstnew.c		ft_lstadd_front.c	ft_lstsize.c\
 				ft_lstlast.c	ft_lstadd_back.c	ft_lstdelone.c\
-				ft_lstclear.c	ft_lstiter.c		ft_lstmap.c		
+				ft_lstclear.c	ft_lstiter.c		ft_lstmap.c	
 
-OBJ = $(LIST:.c=.o)
-OBJ_BONUS = $(LIST_BONUS:.c=.o)
+LIST_P = $(addprefix src/, $(LIST))
+LIST_BONUS_P = $(addprefix src/, $(LIST_BONUS))
+
+OBJ = $(LIST_P:.c=.o)
+OBJ_BONUS = $(LIST_BONUS_P:.c=.o)
+
+HEADER = inc/libft.h
 
 FLAGS = -Wall -Wextra -Werror
 
 all : $(NAME)
 
 $(NAME) : $(OBJ)
-	gcc -c $(FLAGS) $(LIST)
-	ar -rc $(NAME) $(OBJ)
+	@ar -rcs $(NAME) $(OBJ)
 
 %.o : %.c
 	gcc $(FLAGS) -c $< -o $(<:%.c=%.o)
 
 bonus : $(NAME) $(OBJ_BONUS)
-	gcc -c $(FLAGS) $(LIST_BONUS) 
-	ar -rc $(NAME) $(OBJ) $(OBJ_BONUS)
+	@ar -rcs $(NAME) $(OBJ) $(OBJ_BONUS)
 
 clean:
 	rm -f $(OBJ) $(OBJ_BONUS)
